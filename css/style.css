@@ -1,0 +1,90 @@
+/*Line graph:*/
+body {
+    background: #333333;
+    font-family: Courier, monospace;
+    font-size: 14px;
+    color:#ccc;
+}
+.wrapper {
+    display: block;
+    border: 1px solid #555;
+    width: 700px;
+    height: 350px;
+    position: relative;
+}
+.label {
+    height: 1em;
+    padding: .3em;
+    background: rgba(255, 255, 255, .8);
+    position: absolute;
+    display: none;
+    color:#333;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Pie chart:*/
+text {
+    font-family: "RamaGothicM-Heavy",Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black",sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 16rem;
+    fill: #1072b8;
+}
+
+#donut {
+    width: 29rem;
+    height: 29rem;
+    margin-left: 200px;
+}
+
+path.color0 {
+    fill: #1072b8;
+}
+
+path.color1 {
+    fill: #35526b;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Bar chart:*/
+#bar-chart{
+    background-color: rgb(55, 71, 79);
+    width: 800px;
+    height: 350px;
+    font-family: Lato, Helvetica-Neue, monospace;
+}
+
+.ct-series-a .ct-bar {
+    /* Colour of your bars */
+    stroke:  #35526b;
+    stroke-width: 30;
+}
+.ct-series-b .ct-bar {
+    /* Colour of your bars */
+    stroke:  #152B39;
+    stroke-width: 30;
+}
+
+.ct-label {
+    color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Icons:*/
+.fa-chart-line {
+    color: #1072b8;
+    cursor: pointer;
+    width: 106px;
+    height: 106px;
+}
+#graphIcon {
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+}
+.fa-chart-pie {
+    color: #1072b8;
+    cursor: pointer;
+    width: 106px;
+    height: 106px;
+}
+
